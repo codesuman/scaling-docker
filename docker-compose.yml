@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  nodeapi:
+    image: node-api:v1.0.0
+    ports:
+      - '8080:8080'
+  fastapi:
+    image: fast-api:v1.0.0
+    ports:
+      - '80:80'
